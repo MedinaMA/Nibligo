@@ -1,0 +1,132 @@
+lang: Chinese (Mandarin)
+# Words: target // pinyin
+你好 // nǐ hǎo
+再见 // zàijiàn
+请 // qǐng
+谢谢 // xièxie
+对 // duì
+不是 // bú shì
+早上好 // zǎoshang hǎo
+晚安 // wǎn'ān
+名字 // míngzi
+朋友 // péngyou
+学生 // xuésheng
+国家 // guójiā
+城市 // chéngshì
+语言 // yǔyán
+老师 // lǎoshī
+房子 // fángzi
+咖啡 // kāfēi
+水 // shuǐ
+茶 // chá
+面包 // miànbāo
+奶酪 // nǎilào
+菜单 // càidān
+账单 // zhàngdān
+好吃 // hǎochī
+一 // yī
+二 // èr
+三 // sān
+十 // shí
+钱 // qián
+商店 // shāngdiàn
+便宜 // piányi
+贵 // guì
+左 // zuǒ
+右 // yòu
+街道 // jiēdào
+车站 // chēzhàn
+公交车 // gōngjiāochē
+火车 // huǒchē
+票 // piào
+近 // jìn
+今天 // jīntiān
+明天 // míngtiān
+早上 // zǎoshang
+晚上 // wǎnshang
+工作 // gōngzuò
+家 // jiā
+睡觉 // shuìjiào
+吃 // chī
+妈妈 // māma
+爸爸 // bàba
+姐姐 // jiějie
+哥哥 // gēge
+孩子 // háizi
+家庭 // jiātíng
+狗 // gǒu
+生日 // shēngrì
+开心 // kāixīn
+难过 // nánguò
+爱 // ài
+喜欢 // xǐhuan
+美丽 // měilì
+有意思 // yǒu yìsi
+无聊 // wúliáo
+因为 // yīnwèi
+---
+# Phrases: tiles separated by ·  // pinyin
+你好，·最近·怎么样？ // Nǐ hǎo, zuìjìn zěnmeyàng?
+我·很好，·谢谢。 // Wǒ hěn hǎo, xièxie.
+很高兴·认识·你。 // Hěn gāoxìng rènshi nǐ.
+明天·见！ // Míngtiān jiàn!
+打扰·一下。 // Dǎrǎo yíxià.
+对·不起。 // Duìbuqǐ.
+祝你·有·美好的·一天！ // Zhù nǐ yǒu měihǎo de yìtiān!
+你·呢？ // Nǐ ne?
+我·叫·亚历克斯。 // Wǒ jiào Yàlìkèsī.
+你·叫·什么·名字？ // Nǐ jiào shénme míngzi?
+我·来自·加拿大。 // Wǒ láizì Jiānádà.
+你·是·哪里人？ // Nǐ shì nǎlǐ rén?
+我·住在·一个·大城市。 // Wǒ zhù zài yí ge dà chéngshì.
+我·会说·一点。 // Wǒ huì shuō yìdiǎn.
+我·在学·这门·语言。 // Wǒ zài xué zhè mén yǔyán.
+请·说·慢·一点。 // Qǐng shuō màn yìdiǎn.
+请·给我·一杯·咖啡。 // Qǐng gěi wǒ yì bēi kāfēi.
+我·想要·一杯·水。 // Wǒ xiǎng yào yì bēi shuǐ.
+一共·多少·钱？ // Yígòng duōshao qián?
+请·给我·菜单。 // Qǐng gěi wǒ càidān.
+这个·真·好吃！ // Zhège zhēn hǎochī!
+请·买单。 // Qǐng mǎidān.
+我·饿了。 // Wǒ è le.
+有·茶·吗？ // Yǒu chá ma?
+这个·多少·钱？ // Zhège duōshao qián?
+太·贵了。 // Tài guì le.
+我·要·两个。 // Wǒ yào liǎng ge.
+可以·刷卡·吗？ // Kěyǐ shuākǎ ma?
+我·只是·看看。 // Wǒ zhǐshì kànkan.
+有·小一号的·吗？ // Yǒu xiǎo yí hào de ma?
+市场·在·哪里？ // Shìchǎng zài nǎlǐ?
+真·便宜！ // Zhēn piányi!
+车站·在·哪里？ // Chēzhàn zài nǎlǐ?
+向左·转。 // Xiàng zuǒ zhuǎn.
+在·右边。 // Zài yòubian.
+远·吗？ // Yuǎn ma?
+请·给我·一张·去市中心的·票。 // Qǐng gěi wǒ yì zhāng qù shìzhōngxīn de piào.
+公交车·什么时候·出发？ // Gōngjiāochē shénme shíhou chūfā?
+我·迷路了。 // Wǒ mílù le.
+一直·往前·走。 // Yìzhí wǎng qián zǒu.
+现在·几点？ // Xiànzài jǐ diǎn?
+我·七点·起床。 // Wǒ qī diǎn qǐchuáng.
+我·坐公交车·上班。 // Wǒ zuò gōngjiāochē shàngbān.
+我·今天·很累。 // Wǒ jīntiān hěn lèi.
+我·在家·吃晚饭。 // Wǒ zài jiā chī wǎnfàn.
+你·明天·做·什么？ // Nǐ míngtiān zuò shénme?
+我·早上·有个·会。 // Wǒ zǎoshang yǒu ge huì.
+我·睡得·很晚。 // Wǒ shuì de hěn wǎn.
+我·有·一个哥哥·和·一个姐姐。 // Wǒ yǒu yí ge gēge hé yí ge jiějie.
+这是·我·妈妈。 // Zhè shì wǒ māma.
+你·有·孩子·吗？ // Nǐ yǒu háizi ma?
+我的·家庭·很大。 // Wǒ de jiātíng hěn dà.
+我·有·一只狗。 // Wǒ yǒu yì zhī gǒu.
+生日·快乐！ // Shēngrì kuàilè!
+我最好的·朋友·住在·附近。 // Wǒ zuì hǎo de péngyou zhù zài fùjìn.
+我们·星期天·一起·吃饭。 // Wǒmen xīngqītiān yìqǐ chīfàn.
+我·非常·开心！ // Wǒ fēicháng kāixīn!
+我·很喜欢·这首歌。 // Wǒ hěn xǐhuan zhè shǒu gē.
+我·不喜欢·下雨。 // Wǒ bù xǐhuan xià yǔ.
+你·觉得·呢？ // Nǐ juéde ne?
+我·觉得·很有意思。 // Wǒ juéde hěn yǒu yìsi.
+今天·天气·真好。 // Jīntiān tiānqì zhēn hǎo.
+真·无聊。 // Zhēn wúliáo.
+我·喜欢，·因为·很好玩。 // Wǒ xǐhuan, yīnwèi hěn hǎowán.

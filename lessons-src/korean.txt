@@ -1,0 +1,132 @@
+lang: Korean
+# Words: target // romanization
+안녕하세요 // annyeonghaseyo
+안녕히 가세요 // annyeonghi gaseyo
+주세요 // juseyo
+감사합니다 // gamsahamnida
+네 // ne
+아니요 // aniyo
+좋은 아침 // joeun achim
+안녕히 주무세요 // annyeonghi jumuseyo
+이름 // ireum
+친구 // chingu
+학생 // haksaeng
+나라 // nara
+도시 // dosi
+언어 // eoneo
+선생님 // seonsaengnim
+집 // jip
+커피 // keopi
+물 // mul
+차 // cha
+빵 // ppang
+치즈 // chijeu
+메뉴 // menyu
+계산서 // gyesanseo
+맛있어요 // masisseoyo
+하나 // hana
+둘 // dul
+셋 // set
+열 // yeol
+돈 // don
+가게 // gage
+싸요 // ssayo
+비싸요 // bissayo
+왼쪽 // oenjjok
+오른쪽 // oreunjjok
+거리 // geori
+역 // yeok
+버스 // beoseu
+기차 // gicha
+표 // pyo
+가까워요 // gakkawoyo
+오늘 // oneul
+내일 // naeil
+아침 // achim
+저녁 // jeonyeok
+일 // il
+가정 // gajeong
+자다 // jada
+먹다 // meokda
+어머니 // eomeoni
+아버지 // abeoji
+여동생 // yeodongsaeng
+남동생 // namdongsaeng
+아이 // ai
+가족 // gajok
+개 // gae
+생일 // saengil
+행복해요 // haengbokhaeyo
+슬퍼요 // seulpeoyo
+사랑하다 // saranghada
+좋아하다 // joahada
+아름다워요 // areumdawoyo
+흥미로워요 // heungmirowoyo
+지루해요 // jiruhaeyo
+왜냐하면 // waenyahamyeon
+---
+# Phrases: tiles split on spaces // romanization
+안녕하세요, 잘 지내세요? // Annyeonghaseyo, jal jinaeseyo?
+잘 지내요, 감사합니다. // Jal jinaeyo, gamsahamnida.
+만나서 반가워요. // Mannaseo bangawoyo.
+내일 봐요! // Naeil bwayo!
+저기요, 실례합니다. // Jeogiyo, sillyehamnida.
+정말 죄송합니다. // Jeongmal joesonghamnida.
+좋은 하루 보내세요! // Joeun haru bonaeseyo!
+당신은요? // Dangsineunyo?
+제 이름은 알렉스예요. // Je ireumeun Allekseuyeyo.
+이름이 뭐예요? // Ireumi mwoyeyo?
+캐나다에서 왔어요. // Kaenadaeseo wasseoyo.
+어디에서 왔어요? // Eodieseo wasseoyo?
+큰 도시에 살아요. // Keun dosie sarayo.
+조금 할 수 있어요. // Jogeum hal su isseoyo.
+이 언어를 배우고 있어요. // I eoneoreul baeugo isseoyo.
+천천히 말해 주세요. // Cheoncheonhi malhae juseyo.
+커피 한 잔 주세요. // Keopi han jan juseyo.
+물 좀 주시겠어요? // Mul jom jusigesseoyo?
+전부 얼마예요? // Jeonbu eolmayeyo?
+메뉴 좀 주세요. // Menyu jom juseyo.
+정말 맛있어요! // Jeongmal masisseoyo!
+계산서 주세요. // Gyesanseo juseyo.
+배가 고파요. // Baega gopayo.
+차 있어요? // Cha isseoyo?
+이거 얼마예요? // Igeo eolmayeyo?
+너무 비싸요. // Neomu bissayo.
+두 개 주세요. // Du gae juseyo.
+카드 돼요? // Kadeu dwaeyo?
+그냥 구경하고 있어요. // Geunyang gugyeonghago isseoyo.
+더 작은 사이즈 있어요? // Deo jageun saijeu isseoyo?
+시장이 어디예요? // Sijangi eodiyeyo?
+정말 싸네요! // Jeongmal ssaneyo!
+역이 어디예요? // Yeogi eodiyeyo?
+왼쪽으로 가세요. // Oenjjogeuro gaseyo.
+오른쪽에 있어요. // Oreunjjoge isseoyo.
+거기 멀어요? // Geogi meoreoyo?
+시내 가는 표 한 장 주세요. // Sinae ganeun pyo han jang juseyo.
+버스가 언제 출발해요? // Beoseuga eonje chulbalhaeyo?
+길을 잃었어요. // Gireul ileosseoyo.
+똑바로 가세요. // Ttokbaro gaseyo.
+지금 몇 시예요? // Jigeum myeot siyeyo?
+일곱 시에 일어나요. // Ilgop sie ireonayo.
+버스로 출근해요. // Beoseuro chulgeunhaeyo.
+오늘 피곤해요. // Oneul pigonhaeyo.
+집에서 저녁을 먹어요. // Jibeseo jeonyeogeul meogeoyo.
+내일 뭐 해요? // Naeil mwo haeyo?
+아침에 회의가 있어요. // Achime hoeuiga isseoyo.
+늦게 자요. // Neutge jayo.
+남동생 한 명이랑 여동생 한 명이 있어요. // Namdongsaeng han myeongirang yeodongsaeng han myeongi isseoyo.
+이분은 제 어머니예요. // Ibuneun je eomeoniyeyo.
+아이가 있어요? // Aiga isseoyo?
+우리 가족은 대가족이에요. // Uri gajogeun daegajogieyo.
+개를 키워요. // Gaereul kiwoyo.
+생일 축하해요! // Saengil chukahaeyo!
+제일 친한 친구가 근처에 살아요. // Jeil chinhan chinguga geuncheoe sarayo.
+일요일마다 같이 먹어요. // Iryoilmada gachi meogeoyo.
+정말 행복해요! // Jeongmal haengbokhaeyo!
+이 노래 너무 좋아요. // I norae neomu joayo.
+비를 안 좋아해요. // Bireul an joahaeyo.
+어떻게 생각해요? // Eotteoke saenggakhaeyo?
+흥미로운 것 같아요. // Heungmiroun geot gatayo.
+날씨가 정말 좋네요. // Nalssiga jeongmal jonneyo.
+너무 지루해요. // Neomu jiruhaeyo.
+재미있어서 좋아해요. // Jaemiisseoseo joahaeyo.

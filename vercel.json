@@ -1,0 +1,23 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": "",
+  "outputDirectory": "public",
+  "functions": {
+    "api/account.js": {
+      "maxDuration": 60
+    },
+    "api/billing.js": {
+      "maxDuration": 60
+    },
+    "api/progress.js": {
+      "maxDuration": 60
+    },
+    "api/tutor.js": {
+      "maxDuration": 60
+    },
+    "api/lessons.js": {
+      "maxDuration": 300
+    }
+  }
+}

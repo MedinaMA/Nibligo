@@ -1,0 +1,132 @@
+lang: Italian
+# Words
+ciao
+arrivederci
+per favore
+grazie
+sì
+no
+buongiorno
+buonanotte
+nome
+amico
+studente
+paese
+città
+lingua
+insegnante
+casa
+caffè
+acqua
+tè
+pane
+formaggio
+menù
+il conto
+delizioso
+uno
+due
+tre
+dieci
+soldi
+negozio
+economico
+caro
+sinistra
+destra
+strada
+stazione
+autobus
+treno
+biglietto
+vicino
+oggi
+domani
+mattina
+sera
+lavoro
+a casa
+dormire
+mangiare
+madre
+padre
+sorella
+fratello
+bambino
+famiglia
+cane
+compleanno
+felice
+triste
+amare
+piacere
+bello
+interessante
+noioso
+perché
+---
+# Phrases
+Ciao, come stai?
+Sto bene, grazie.
+Piacere di conoscerti.
+A domani!
+Mi scusi.
+Mi dispiace.
+Buona giornata!
+E tu?
+Mi chiamo Alex.
+Come ti chiami?
+Vengo dal Canada.
+Di dove sei?
+Vivo in una grande città.
+Parlo un po'.
+Sto imparando questa lingua.
+Puoi parlare più lentamente, per favore?
+Un caffè, per favore.
+Vorrei un'acqua.
+Quant'è?
+Il menù, per favore.
+È delizioso!
+Il conto, per favore.
+Ho fame.
+Avete del tè?
+Quanto costa questo?
+È troppo caro.
+Ne prendo due.
+Accettate carte?
+Sto solo guardando.
+Avete una taglia più piccola?
+Dov'è il mercato?
+Che economico!
+Dov'è la stazione?
+Gira a sinistra.
+È sulla destra.
+È lontano?
+Un biglietto per il centro, per favore.
+Quando parte l'autobus?
+Mi sono perso.
+Vai sempre dritto.
+Che ore sono?
+Mi sveglio alle sette.
+Vado al lavoro in autobus.
+Oggi sono stanco.
+Ceno a casa.
+Cosa fai domani?
+Ho una riunione di mattina.
+Vado a letto tardi.
+Ho un fratello e una sorella.
+Questa è mia madre.
+Hai figli?
+La mia famiglia è grande.
+Ho un cane.
+Buon compleanno!
+Il mio migliore amico abita qui vicino.
+La domenica mangiamo insieme.
+Sono molto felice!
+Adoro questa canzone.
+Non mi piace la pioggia.
+Cosa ne pensi?
+Penso che sia interessante.
+È una bella giornata.
+Che noia.
+Mi piace perché è divertente.

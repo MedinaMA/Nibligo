@@ -1,0 +1,132 @@
+lang: Spanish (Latin America)
+# Words: 64 lines, in curriculum order (see lib/lessons.js). Format: target // romanization (optional)
+hola
+adiós
+por favor
+gracias
+sí
+no
+buenos días
+buenas noches
+nombre
+amigo
+estudiante
+país
+ciudad
+idioma
+profesor
+casa
+café
+agua
+té
+pan
+queso
+menú
+la cuenta
+delicioso
+uno
+dos
+tres
+diez
+dinero
+tienda
+barato
+caro
+izquierda
+derecha
+calle
+estación
+autobús
+tren
+boleto
+cerca
+hoy
+mañana
+la mañana
+la tarde
+trabajo
+hogar
+dormir
+comer
+madre
+padre
+hermana
+hermano
+niño
+familia
+perro
+cumpleaños
+feliz
+triste
+amar
+gustar
+hermoso
+interesante
+aburrido
+porque
+---
+# Phrases: 64 lines. Tiles split on spaces (or on · when given).
+Hola, ¿cómo estás?
+Estoy bien, gracias.
+Mucho gusto.
+¡Hasta mañana!
+Disculpe.
+Lo siento.
+¡Que tengas un buen día!
+¿Y tú?
+Me llamo Alex.
+¿Cómo te llamas?
+Soy de Canadá.
+¿De dónde eres?
+Vivo en una ciudad grande.
+Hablo un poco.
+Estoy aprendiendo este idioma.
+¿Puedes hablar más despacio, por favor?
+Un café, por favor.
+Quisiera un agua.
+¿Cuánto es?
+El menú, por favor.
+¡Esto está delicioso!
+La cuenta, por favor.
+Tengo hambre.
+¿Tienen té?
+¿Cuánto cuesta esto?
+Es demasiado caro.
+Me llevo dos.
+¿Aceptan tarjetas?
+Solo estoy mirando.
+¿Tiene una talla más pequeña?
+¿Dónde está el mercado?
+¡Qué barato!
+¿Dónde está la estación?
+Gira a la izquierda.
+Está a la derecha.
+¿Está lejos?
+Un boleto al centro, por favor.
+¿A qué hora sale el autobús?
+Estoy perdido.
+Sigue derecho.
+¿Qué hora es?
+Me despierto a las siete.
+Voy al trabajo en autobús.
+Hoy estoy cansado.
+Ceno en casa.
+¿Qué vas a hacer mañana?
+Tengo una reunión en la mañana.
+Me acuesto tarde.
+Tengo un hermano y una hermana.
+Ella es mi mamá.
+¿Tienes hijos?
+Mi familia es grande.
+Tengo un perro.
+¡Feliz cumpleaños!
+Mi mejor amigo vive cerca.
+Comemos juntos los domingos.
+¡Estoy muy feliz!
+Me encanta esta canción.
+No me gusta la lluvia.
+¿Qué piensas?
+Creo que es interesante.
+Es un día hermoso.
+Qué aburrido.
+Me gusta porque es divertido.

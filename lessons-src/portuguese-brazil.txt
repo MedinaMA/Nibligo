@@ -1,0 +1,132 @@
+lang: Portuguese (Brazil)
+# Words
+olá
+tchau
+por favor
+obrigado
+sim
+não
+bom dia
+boa noite
+nome
+amigo
+estudante
+país
+cidade
+idioma
+professor
+casa
+café
+água
+chá
+pão
+queijo
+cardápio
+a conta
+delicioso
+um
+dois
+três
+dez
+dinheiro
+loja
+barato
+caro
+esquerda
+direita
+rua
+estação
+ônibus
+trem
+passagem
+perto
+hoje
+amanhã
+manhã
+noite
+trabalho
+lar
+dormir
+comer
+mãe
+pai
+irmã
+irmão
+criança
+família
+cachorro
+aniversário
+feliz
+triste
+amar
+gostar
+bonito
+interessante
+chato
+porque
+---
+# Phrases
+Olá, tudo bem?
+Estou bem, obrigado.
+Prazer em conhecer você.
+Até amanhã!
+Com licença.
+Desculpa.
+Tenha um bom dia!
+E você?
+Meu nome é Alex.
+Qual é o seu nome?
+Eu sou do Canadá.
+De onde você é?
+Eu moro numa cidade grande.
+Eu falo um pouco.
+Estou aprendendo este idioma.
+Você pode falar mais devagar, por favor?
+Um café, por favor.
+Eu queria uma água.
+Quanto é?
+O cardápio, por favor.
+Isto está delicioso!
+A conta, por favor.
+Estou com fome.
+Vocês têm chá?
+Quanto custa isto?
+Está caro demais.
+Vou levar dois.
+Vocês aceitam cartão?
+Só estou olhando.
+Tem um tamanho menor?
+Onde fica o mercado?
+Que barato!
+Onde fica a estação?
+Vire à esquerda.
+Fica à direita.
+É longe?
+Uma passagem para o centro, por favor.
+Quando o ônibus sai?
+Estou perdido.
+Siga em frente.
+Que horas são?
+Eu acordo às sete.
+Eu vou para o trabalho de ônibus.
+Estou cansado hoje.
+Eu janto em casa.
+O que você vai fazer amanhã?
+Tenho uma reunião de manhã.
+Eu vou dormir tarde.
+Eu tenho um irmão e uma irmã.
+Esta é a minha mãe.
+Você tem filhos?
+Minha família é grande.
+Eu tenho um cachorro.
+Feliz aniversário!
+Meu melhor amigo mora perto.
+A gente come junto aos domingos.
+Estou muito feliz!
+Eu amo essa música.
+Eu não gosto de chuva.
+O que você acha?
+Acho interessante.
+Está um dia lindo.
+Que chato.
+Eu gosto porque é divertido.

@@ -1,0 +1,132 @@
+lang: French
+# Words
+salut
+au revoir
+s'il vous plaît
+merci
+oui
+non
+bonjour
+bonne nuit
+nom
+ami
+étudiant
+pays
+ville
+langue
+professeur
+maison
+café
+eau
+thé
+pain
+fromage
+menu
+l'addition
+délicieux
+un
+deux
+trois
+dix
+argent
+magasin
+bon marché
+cher
+gauche
+droite
+rue
+gare
+bus
+train
+billet
+près
+aujourd'hui
+demain
+matin
+soir
+travail
+chez moi
+dormir
+manger
+mère
+père
+sœur
+frère
+enfant
+famille
+chien
+anniversaire
+heureux
+triste
+aimer
+aimer bien
+beau
+intéressant
+ennuyeux
+parce que
+---
+# Phrases (spaces before ? ! are converted to narrow no-break spaces by the build script)
+Salut, comment ça va ?
+Je vais bien, merci.
+Enchanté.
+À demain !
+Excusez-moi.
+Je suis désolé.
+Bonne journée !
+Et toi ?
+Je m'appelle Alex.
+Comment tu t'appelles ?
+Je viens du Canada.
+Tu viens d'où ?
+J'habite dans une grande ville.
+Je parle un peu.
+J'apprends cette langue.
+Tu peux parler plus lentement, s'il te plaît ?
+Un café, s'il vous plaît.
+Je voudrais de l'eau.
+C'est combien ?
+La carte, s'il vous plaît.
+C'est délicieux !
+L'addition, s'il vous plaît.
+J'ai faim.
+Vous avez du thé ?
+Combien ça coûte ?
+C'est trop cher.
+J'en prends deux.
+Vous acceptez la carte bancaire ?
+Je regarde seulement.
+Vous avez une taille plus petite ?
+Où est le marché ?
+C'est bon marché !
+Où est la gare ?
+Tournez à gauche.
+C'est à droite.
+C'est loin ?
+Un billet pour le centre-ville, s'il vous plaît.
+Quand part le bus ?
+Je suis perdu.
+Allez tout droit.
+Quelle heure est-il ?
+Je me réveille à sept heures.
+Je vais au travail en bus.
+Je suis fatigué aujourd'hui.
+Je dîne à la maison.
+Qu'est-ce que tu fais demain ?
+J'ai une réunion le matin.
+Je me couche tard.
+J'ai un frère et une sœur.
+Voici ma mère.
+Tu as des enfants ?
+Ma famille est grande.
+J'ai un chien.
+Joyeux anniversaire !
+Mon meilleur ami habite près d'ici.
+On mange ensemble le dimanche.
+Je suis très heureux !
+J'adore cette chanson.
+Je n'aime pas la pluie.
+Qu'est-ce que tu en penses ?
+Je pense que c'est intéressant.
+C'est une belle journée.
+C'est ennuyeux.
+Je l'aime bien parce que c'est amusant.

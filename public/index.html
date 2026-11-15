@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Sayso · Learn any language by speaking</title>
+  <meta name="description" content="Sayso is a speaking-first language app. Talk out loud with a friendly AI tutor that answers at your level and fixes your mistakes as you go." />
+  <meta name="theme-color" content="#7B4DFF" />
+  <link rel="icon" href="logo.svg" type="image/svg+xml" />
+  <meta property="og:title" content="Sayso · Learn any language by speaking" />
+  <meta property="og:description" content="Talk out loud with a friendly AI tutor. Get fluent for real." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- ================= LANDING ================= -->
+  <section id="landing" class="view" hidden>
+    <nav class="land-nav">
+      <a class="logo" href="#"><img src="logo.svg" alt="" width="40" height="40" /><span>sayso</span></a>
+      <button class="btn btn-ghost" data-open-auth="login">Log in</button>
+    </nav>
+
+    <header class="hero">
+      <div class="hero-art">
+        <div class="float-bubble b1">¡Hola!</div>
+        <div class="float-bubble b2">Bonjour</div>
+        <div class="float-bubble b3">こんにちは</div>
+        <div class="float-bubble b4">Ciao!</div>
+        <div class="float-bubble b5">안녕하세요</div>
+        <div class="float-bubble b6">Olá</div>
+        <div class="mascot-slot big bob" data-mood="talk"></div>
+      </div>
+      <div class="hero-copy">
+        <h1>Learn any language by <span class="hl">speaking</span> it.</h1>
+        <p>Fun, bite-size lessons you say out loud, free. Then, when you're ready, real conversations with Sayso, your friendly AI tutor.</p>
+        <div class="hero-cta">
+          <button class="btn btn-primary btn-xl" data-start-free>Start learning free</button>
+          <button class="btn btn-ghost btn-xl" data-open-auth="login">I have an account</button>
+        </div>
+        <p class="tiny muted">Free forever · no account needed to start</p>
+      </div>
+    </header>
+
+    <section class="features">
+      <div class="feature f-grape"><div class="f-icon">🎙️</div><h3>Talk, don't tap</h3><p>Hold real conversations out loud: order coffee, ace an interview, tell stories, argue about pizza toppings.</p></div>
+      <div class="feature f-coral"><div class="f-icon">✨</div><h3>Fixes as you go</h3><p>Sayso gently corrects what matters, explains why in your language, and lets you hear it said right.</p></div>
+      <div class="feature f-sun"><div class="f-icon">🧠</div><h3>Remembers you</h3><p>Your mistakes become speaking drills that come back right before you'd forget them.</p></div>
+      <div class="feature f-mint"><div class="f-icon">🔥</div><h3>Makes it a habit</h3><p>XP, streaks, daily goals and a tutor who's always happy to see you. Ten minutes a day adds up fast.</p></div>
+    </section>
+
+    <section class="how">
+      <h2>How it works</h2>
+      <ol class="steps">
+        <li><span class="step-n">1</span><div><strong>Pick your language</strong><p>Spanish, French, Japanese, Korean and more. Tell Sayso your level and set a daily goal.</p></div></li>
+        <li><span class="step-n">2</span><div><strong>Play, listen and speak</strong><p>Bite-size lessons where you tap, listen and say every phrase out loud. Sayso checks your pronunciation.</p></div></li>
+        <li><span class="step-n">3</span><div><strong>Level up every day</strong><p>Earn XP, keep your streak, and watch your level climb from first words to fluent.</p></div></li>
+      </ol>
+    </section>
+
+    <section class="pricing" id="pricing">
+      <h2>Free to learn. Plus to talk.</h2>
+      <div class="plans">
+        <div class="price-card free-card">
+          <div class="mascot-slot" data-mood="happy"></div>
+          <h3>Sayso Free</h3>
+          <div class="price"><span class="free-price">$0</span><span class="muted"> forever</span></div>
+          <ul class="checks">
+            <li>Bite-size lessons in 8 languages (more coming!)</li>
+            <li>Speak-it-out-loud pronunciation practice</li>
+            <li>Listening, word tiles & matching games</li>
+            <li>XP, streaks & daily goals</li>
+          </ul>
+          <button class="btn btn-ghost btn-xl wide" data-start-free>Start free</button>
+        </div>
+        <div class="price-card plus-card">
+          <span class="ribbon">Most fun</span>
+          <div class="mascot-slot" data-mood="wow"></div>
+          <h3 class="plan-name">Sayso Plus</h3>
+          <div class="price"><span class="plan-price">$9.99</span><span class="muted">/month</span></div>
+          <p class="plan-trial tiny" hidden></p>
+          <ul class="checks">
+            <li><strong>Everything in Free, plus:</strong></li>
+            <li>Real conversations with your AI tutor</li>
+            <li>Live corrections, explained in your language</li>
+            <li>10 real-life scenarios, from café to job interview</li>
+            <li>A tutor that remembers you</li>
+          </ul>
+          <button class="btn btn-primary btn-xl wide" data-upgrade>Get Sayso Plus</button>
+          <p class="tiny muted">Cancel anytime. *Fair use: up to <span class="plan-limit">120</span> tutor replies a day.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="land-foot">
+      <a class="logo small" href="#"><img src="logo.svg" alt="" width="28" height="28" /><span>sayso</span></a>
+      <p class="tiny muted">© <span id="year"></span> Sayso. Speak up!</p>
+    </footer>
+  </section>
+
+  <!-- ================= AUTH MODAL ================= -->
+  <div id="auth-modal" class="modal" hidden>
+    <div class="modal-card">
+      <button class="modal-x" data-close aria-label="Close">✕</button>
+      <div class="mascot-slot" data-mood="happy"></div>
+      <h2 id="auth-title">Create your account</h2>
+      <form id="auth-form">
+        <input id="auth-email" type="email" autocomplete="email" placeholder="Email" required />
+        <input id="auth-password" type="password" autocomplete="new-password" placeholder="Password (8+ characters)" minlength="8" required />
+        <p id="auth-error" class="form-error" hidden></p>
+        <button class="btn btn-primary btn-xl wide" type="submit" id="auth-submit">Create account</button>
+      </form>
+      <p class="tiny muted" id="auth-switch"></p>
+    </div>
+  </div>
+
+  <!-- ================= PAYWALL ================= -->
+  <section id="paywall" class="view center-view" hidden>
+    <div class="paywall-card">
+      <div class="mascot-slot big bob" data-mood="wow"></div>
+      <h1>Ready to start talking?</h1>
+      <p class="muted">Unlock your personal AI speaking tutor with <strong class="plan-name">Sayso Plus</strong>.</p>
+      <div class="price"><span class="plan-price">$9.99</span><span class="muted">/month</span></div>
+      <p class="plan-trial tiny" hidden></p>
+      <ul class="checks">
+        <li>Real spoken conversations with your AI tutor*</li>
+        <li>Live corrections, explained in your language</li>
+        <li>10 real-life scenarios & a tutor that remembers you</li>
+        <li>Cancel anytime</li>
+      </ul>
+      <button id="subscribe" class="btn btn-primary btn-xl wide">Subscribe</button>
+      <p class="tiny muted">Secure payment by Stripe. *Up to <span class="plan-limit">120</span> tutor replies a day.</p>
+      <button class="btn btn-link" id="paywall-later">Maybe later</button>
+    </div>
+  </section>
+
+  <!-- ================= ONBOARDING ================= -->
+  <section id="onboarding" class="view" hidden>
+    <div class="ob-top">
+      <button class="btn-icon" id="ob-back" aria-label="Back">←</button>
+      <div class="ob-bar"><div id="ob-progress"></div></div>
+    </div>
+    <div class="ob-body">
+      <div class="ob-speech">
+        <div class="mascot-slot" data-mood="talk"></div>
+        <div class="speech" id="ob-question">What do you want to learn?</div>
+      </div>
+
+      <div class="ob-step" data-step="0">
+        <input id="lang-search" class="search" type="search" placeholder="Search languages…" />
+        <div id="lang-grid" class="tile-grid"></div>
+      </div>
+
+      <div class="ob-step" data-step="1" hidden>
+        <div id="level-grid" class="tile-list"></div>
+      </div>
+
+      <div class="ob-step" data-step="2" hidden>
+        <div id="goal-grid" class="tile-list"></div>
+      </div>
+
+      <div class="ob-step" data-step="3" hidden>
+        <label class="field">I already speak
+          <select id="native"></select>
+        </label>
+        <label class="field">I love talking about <span class="muted">(optional)</span>
+          <input id="interests" type="text" placeholder="football, cooking, anime, travel…" />
+        </label>
+        <button id="ob-finish" class="btn btn-primary btn-xl wide">Let's go!</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= APP ================= -->
+  <section id="app" class="view" hidden>
+    <header class="topbar">
+      <a class="logo" href="#" aria-label="Sayso"><img src="logo.svg" alt="" width="34" height="34" /><span class="hide-sm">sayso</span></a>
+      <div class="hud">
+        <span class="hud-item" id="hud-lang" title="Your language"></span>
+        <span class="hud-item streak" title="Day streak">🔥 <b id="hud-streak">0</b></span>
+        <span class="hud-item xp" title="Total XP">💎 <b id="hud-xp">0</b></span>
+        <span class="hud-item goal" title="Daily goal">
+          <svg viewBox="0 0 36 36" width="30" height="30" aria-hidden="true">
+            <circle cx="18" cy="18" r="15" fill="none" stroke="var(--track)" stroke-width="5" />
+            <circle id="goal-ring" cx="18" cy="18" r="15" fill="none" stroke="var(--sun)" stroke-width="5" stroke-linecap="round" stroke-dasharray="94.25" stroke-dashoffset="94.25" transform="rotate(-90 18 18)" />
+          </svg>
+          <b id="hud-goal">0/50</b>
+        </span>
+      </div>
+    </header>
+
+    <!-- Learn (free) -->
+    <main id="tab-learn" class="tab" hidden>
+      <div id="path" class="path"></div>
+    </main>
+
+    <!-- Talk -->
+    <main id="tab-talk" class="tab">
+      <div id="talk-locked" class="locked" hidden>
+        <div class="mascot-slot big bob" data-mood="talk"></div>
+        <h2 id="talk-locked-title">Ready for real conversations?</h2>
+        <p class="muted">With <strong>Sayso Plus</strong> you can chat out loud with your AI tutor about anything: order coffee, ace an interview, tell stories. Sayso answers at your level and fixes your mistakes as you go.</p>
+        <div class="demo-chat">
+          <div class="demo b-tutor">¿Qué hiciste el fin de semana?</div>
+          <div class="demo b-you">Yo fui a la playa con mis amigos!</div>
+          <div class="demo b-fix"><s>Yo fui</s> → <b>Fui</b> · Spanish usually drops "yo" ✨</div>
+        </div>
+        <button class="btn btn-primary btn-xl wide" data-upgrade>Unlock conversations</button>
+        <button class="btn btn-link" data-tab-go="learn">Keep learning free</button>
+      </div>
+      <div class="scenarios" id="scenarios"></div>
+      <div id="chat" class="chat" aria-live="polite"></div>
+      <div class="composer">
+        <div id="interim" class="interim"></div>
+        <div class="composer-row">
+          <button id="end-session" class="btn btn-ghost btn-sm">Finish 🏁</button>
+          <button id="mic" class="mic" aria-label="Tap to speak">
+            <svg viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><path fill="currentColor" d="M12 15a3 3 0 0 0 3-3V6a3 3 0 1 0-6 0v6a3 3 0 0 0 3 3Zm5-3a5 5 0 0 1-10 0H5a7 7 0 0 0 6 6.92V21h2v-2.08A7 7 0 0 0 19 12h-2Z"/></svg>
+          </button>
+          <button id="toggle-type" class="btn btn-ghost btn-sm">Type ⌨️</button>
+        </div>
+        <form id="type-form" class="type-form" hidden>
+          <input id="type-input" type="text" autocomplete="off" placeholder="Type…" />
+          <button class="btn btn-primary btn-sm" type="submit">Send</button>
+        </form>
+        <p class="hint" id="mic-hint">Tap the mic and speak!</p>
+      </div>
+    </main>
+
+    <!-- Review -->
+    <main id="tab-review" class="tab" hidden>
+      <div id="review-empty" class="empty">
+        <div class="mascot-slot" data-mood="think"></div>
+        <h2>Nothing to review yet</h2>
+        <p class="muted">Your corrections and new words land here as speaking drills. Go chat first!</p>
+      </div>
+      <div id="review-done" class="empty" hidden>
+        <div class="mascot-slot bob" data-mood="wow"></div>
+        <h2>All caught up! 🎉</h2>
+        <p class="muted">Your memory is in great shape. Come back tomorrow for more.</p>
+      </div>
+      <div id="review-card" class="review-card" hidden>
+        <p class="review-count muted tiny" id="review-left"></p>
+        <div class="flash">
+          <p class="eyebrow">Say it in <span class="target-name"></span></p>
+          <p id="review-prompt" class="review-prompt"></p>
+          <p id="review-hint" class="tiny muted"></p>
+        </div>
+        <button id="review-mic" class="mic" aria-label="Speak your answer">
+          <svg viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><path fill="currentColor" d="M12 15a3 3 0 0 0 3-3V6a3 3 0 1 0-6 0v6a3 3 0 0 0 3 3Zm5-3a5 5 0 0 1-10 0H5a7 7 0 0 0 6 6.92V21h2v-2.08A7 7 0 0 0 19 12h-2Z"/></svg>
+        </button>
+        <p id="review-said" class="interim"></p>
+        <button id="review-skip" class="btn btn-link">I don't know, show me</button>
+      </div>
+      <div id="review-result" class="result-banner" hidden>
+        <div class="result-inner">
+          <p id="review-feedback" class="result-title"></p>
+          <p class="result-answer"><button class="btn-icon" id="review-listen" aria-label="Listen">🔊</button> <span id="review-answer"></span></p>
+          <button id="review-next" class="btn btn-xl wide">Continue</button>
+        </div>
+      </div>
+    </main>
+
+    <!-- Me -->
+    <main id="tab-me" class="tab" hidden>
+      <div class="me-head">
+        <div class="mascot-slot" data-mood="happy"></div>
+        <div>
+          <h2 id="me-level">Level 1</h2>
+          <div class="lvl-bar"><div id="lvl-fill"></div></div>
+          <p class="tiny muted" id="lvl-text"></p>
+        </div>
+      </div>
+      <div class="stats">
+        <div class="stat s-coral"><span id="stat-streak">0</span><label>🔥 day streak</label></div>
+        <div class="stat s-grape"><span id="stat-xp">0</span><label>💎 total XP</label></div>
+        <div class="stat s-mint"><span id="stat-minutes">0</span><label>🎙️ minutes spoken</label></div>
+        <div class="stat s-sun"><span id="stat-cefr">–</span><label>🎓 estimated level</label></div>
+      </div>
+
+      <h3>Week</h3>
+      <div class="week" id="week"></div>
+
+      <h3>Last session</h3>
+      <div id="last-feedback" class="panel muted">Finish a conversation to get feedback from Sayso.</div>
+
+      <h3>What Sayso remembers about you</h3>
+      <div id="tutor-notes" class="panel muted">Nothing yet. Start talking!</div>
+
+      <h3>Settings</h3>
+      <div class="panel settings">
+        <label class="switch"><input type="checkbox" id="opt-sound" /> Sound effects</label>
+        <label class="switch"><input type="checkbox" id="opt-handsfree" /> Hands-free (listen automatically after Sayso talks)</label>
+        <label class="switch"><input type="checkbox" id="opt-translate" /> Always show translations</label>
+        <label class="switch"><input type="checkbox" id="opt-slow" /> Slower voice</label>
+        <label class="switch"><input type="checkbox" id="opt-roman" /> Show pronunciation (romanization) in lessons</label>
+        <label class="field">Daily goal <select id="opt-goal"></select></label>
+        <label class="field">Voice <select id="voice-select"></select></label>
+      </div>
+      <div class="account-actions">
+        <button id="change-lang" class="btn btn-ghost">Change language</button>
+        <button id="me-upgrade" class="btn btn-primary" data-upgrade>Get Sayso Plus</button>
+        <button id="manage-sub" class="btn btn-ghost">Manage subscription</button>
+        <button id="me-signup" class="btn btn-ghost" data-open-auth="signup">Create account to save progress</button>
+        <button id="me-login" class="btn btn-ghost" data-open-auth="login">Log in</button>
+        <button id="me-logout" class="btn btn-ghost" data-logout>Log out</button>
+        <button id="delete-account" class="btn btn-link danger">Delete account</button>
+      </div>
+      <p class="tiny muted center" id="me-email"></p>
+    </main>
+
+    <nav class="tabbar" role="tablist">
+      <button role="tab" data-tab="learn" aria-selected="true"><span class="tb-icon">🏠</span><span>Learn</span></button>
+      <button role="tab" data-tab="talk"><span class="tb-icon">💬</span><span>Talk</span><span id="plus-badge" class="plus-badge">PLUS</span></button>
+      <button role="tab" data-tab="review"><span class="tb-icon">🧠</span><span>Review</span><span id="due-count" class="count" hidden></span></button>
+      <button role="tab" data-tab="me"><span class="tb-icon">⭐</span><span>Me</span></button>
+    </nav>
+  </section>
+
+  <!-- ================= LESSON PLAYER ================= -->
+  <section id="lesson" class="view" hidden>
+    <div class="lesson-wrap">
+      <div class="ob-top">
+        <button class="btn-icon" id="lesson-close" aria-label="Quit lesson">✕</button>
+        <div class="ob-bar"><div id="lesson-progress"></div></div>
+        <span class="combo" id="lesson-combo" hidden></span>
+      </div>
+      <div id="ex" class="ex"></div>
+    </div>
+    <div id="ex-footer" class="ex-footer">
+      <div class="ex-footer-inner">
+        <div id="ex-feedback" class="ex-feedback"></div>
+        <div class="ex-actions">
+          <button id="ex-skip" class="btn btn-ghost" hidden>Can't speak now</button>
+          <button id="ex-check" class="btn btn-primary btn-xl" disabled>Check</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="lesson-done" class="view center-view" hidden>
+    <div class="done-card">
+      <div class="mascot-slot big bob" data-mood="wow"></div>
+      <h1 id="done-title">Lesson complete!</h1>
+      <div class="cel-stats">
+        <div class="cel-stat c-sun"><span id="done-xp">+10</span><label>XP</label></div>
+        <div class="cel-stat c-mint"><span id="done-acc">100%</span><label>accuracy</label></div>
+        <div class="cel-stat c-coral"><span id="done-streak">1🔥</span><label>streak</label></div>
+      </div>
+      <button id="done-continue" class="btn btn-primary btn-xl wide">Continue</button>
+      <div id="done-upsell" class="upsell-mini" hidden>
+        <p><strong>Want to use these phrases in a real conversation?</strong> Try Sayso Plus and chat with your AI tutor.</p>
+        <button class="btn btn-ghost btn-sm" data-upgrade>See Plus</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CELEBRATION ================= -->
+  <div id="celebrate" class="modal" hidden>
+    <div class="modal-card celebrate-card">
+      <div class="mascot-slot big bob" data-mood="wow"></div>
+      <h2 id="cel-title">Session complete!</h2>
+      <div class="cel-stats">
+        <div class="cel-stat c-sun"><span id="cel-xp">+0</span><label>XP</label></div>
+        <div class="cel-stat c-coral"><span id="cel-streak">0</span><label>streak</label></div>
+        <div class="cel-stat c-mint"><span id="cel-level">–</span><label>level</label></div>
+      </div>
+      <p id="cel-feedback" class="cel-feedback"></p>
+      <ul id="cel-focus" class="focus-list"></ul>
+      <button class="btn btn-primary btn-xl wide" data-close>Keep going</button>
+    </div>
+  </div>
+
+  <div id="loading" class="view center-view">
+    <div class="mascot-slot bob" data-mood="happy"></div>
+  </div>
+  <canvas id="confetti" aria-hidden="true"></canvas>
+  <div id="toast" class="toast" hidden></div>
+  <script src="main.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+lang: Japanese
+# Words: target // romaji
+こんにちは // konnichiwa
+さようなら // sayōnara
+お願いします // onegaishimasu
+ありがとう // arigatō
+はい // hai
+いいえ // iie
+おはようございます // ohayō gozaimasu
+おやすみなさい // oyasuminasai
+名前 // namae
+友達 // tomodachi
+学生 // gakusei
+国 // kuni
+町 // machi
+言語 // gengo
+先生 // sensei
+家 // ie
+コーヒー // kōhī
+水 // mizu
+お茶 // ocha
+パン // pan
+チーズ // chīzu
+メニュー // menyū
+お会計 // okaikei
+おいしい // oishii
+一 // ichi
+二 // ni
+三 // san
+十 // jū
+お金 // okane
+店 // mise
+安い // yasui
+高い // takai
+左 // hidari
+右 // migi
+通り // tōri
+駅 // eki
+バス // basu
+電車 // densha
+切符 // kippu
+近い // chikai
+今日 // kyō
+明日 // ashita
+朝 // asa
+夕方 // yūgata
+仕事 // shigoto
+うち // uchi
+寝る // neru
+食べる // taberu
+母 // haha
+父 // chichi
+姉 // ane
+兄 // ani
+子ども // kodomo
+家族 // kazoku
+犬 // inu
+誕生日 // tanjōbi
+うれしい // ureshii
+悲しい // kanashii
+愛する // aisuru
+好き // suki
+きれい // kirei
+面白い // omoshiroi
+つまらない // tsumaranai
+から // kara
+---
+# Phrases: tiles separated by ·  // romaji
+こんにちは、·お元気·ですか？ // Konnichiwa, ogenki desu ka?
+元気·です、·ありがとう。 // Genki desu, arigatō.
+はじめ·まして。 // Hajimemashite.
+また·明日！ // Mata ashita!
+すみ·ません。 // Sumimasen.
+ごめん·なさい。 // Gomen nasai.
+良い·一日を！ // Yoi ichinichi o!
+あなた·は？ // Anata wa?
+私は·アレックス·です。 // Watashi wa Arekkusu desu.
+お名前は·何·ですか？ // Onamae wa nan desu ka?
+カナダ·から·来ました。 // Kanada kara kimashita.
+どこ·から·来ましたか？ // Doko kara kimashita ka?
+大きな·町に·住んで·います。 // Ōkina machi ni sunde imasu.
+少し·話せます。 // Sukoshi hanasemasu.
+この·言葉を·勉強して·います。 // Kono kotoba o benkyō shite imasu.
+ゆっくり·話して·ください。 // Yukkuri hanashite kudasai.
+コーヒーを·ください。 // Kōhī o kudasai.
+お水を·お願いします。 // Omizu o onegaishimasu.
+いくら·ですか？ // Ikura desu ka?
+メニューを·ください。 // Menyū o kudasai.
+これは·おいしい！ // Kore wa oishii!
+お会計を·お願いします。 // Okaikei o onegaishimasu.
+お腹が·すきました。 // Onaka ga sukimashita.
+お茶は·ありますか？ // Ocha wa arimasu ka?
+これは·いくら·ですか？ // Kore wa ikura desu ka?
+高·すぎます。 // Takasugimasu.
+二つ·ください。 // Futatsu kudasai.
+カードは·使えますか？ // Kādo wa tsukaemasu ka?
+見て·いる·だけです。 // Mite iru dake desu.
+もっと·小さい·サイズは·ありますか？ // Motto chiisai saizu wa arimasu ka?
+市場は·どこ·ですか？ // Ichiba wa doko desu ka?
+安い·ですね！ // Yasui desu ne!
+駅は·どこ·ですか？ // Eki wa doko desu ka?
+左に·曲がって·ください。 // Hidari ni magatte kudasai.
+右に·あります。 // Migi ni arimasu.
+遠い·ですか？ // Tōi desu ka?
+中心街·までの·切符を·ください。 // Chūshingai made no kippu o kudasai.
+バスは·いつ·出ますか？ // Basu wa itsu demasu ka?
+道に·迷いました。 // Michi ni mayoimashita.
+まっすぐ·行って·ください。 // Massugu itte kudasai.
+今·何時·ですか？ // Ima nanji desu ka?
+七時に·起きます。 // Shichiji ni okimasu.
+バスで·仕事に·行きます。 // Basu de shigoto ni ikimasu.
+今日は·疲れて·います。 // Kyō wa tsukarete imasu.
+家で·晩ご飯を·食べます。 // Ie de bangohan o tabemasu.
+明日は·何を·しますか？ // Ashita wa nani o shimasu ka?
+朝に·会議が·あります。 // Asa ni kaigi ga arimasu.
+寝るのが·遅い·です。 // Neru no ga osoi desu.
+兄と·姉が·います。 // Ani to ane ga imasu.
+こちらは·母·です。 // Kochira wa haha desu.
+お子さんは·いますか？ // Okosan wa imasu ka?
+私の·家族は·大きい·です。 // Watashi no kazoku wa ōkii desu.
+犬を·飼って·います。 // Inu o katte imasu.
+誕生日·おめでとう！ // Tanjōbi omedetō!
+親友が·近くに·住んで·います。 // Shin'yū ga chikaku ni sunde imasu.
+日曜日は·一緒に·食べます。 // Nichiyōbi wa issho ni tabemasu.
+とても·うれしい·です！ // Totemo ureshii desu!
+この·歌が·大好き·です。 // Kono uta ga daisuki desu.
+雨は·好きじゃ·ないです。 // Ame wa suki ja nai desu.
+どう·思いますか？ // Dō omoimasu ka?
+面白いと·思います。 // Omoshiroi to omoimasu.
+いい·天気·ですね。 // Ii tenki desu ne.
+つまらない·ですね。 // Tsumaranai desu ne.
+楽しい·から·好きです。 // Tanoshii kara suki desu.

@@ -1,0 +1,132 @@
+lang: German
+# Words
+hallo
+tschüss
+bitte
+danke
+ja
+nein
+guten Morgen
+gute Nacht
+der Name
+der Freund
+der Student
+das Land
+die Stadt
+die Sprache
+der Lehrer
+das Haus
+der Kaffee
+das Wasser
+der Tee
+das Brot
+der Käse
+die Speisekarte
+die Rechnung
+lecker
+eins
+zwei
+drei
+zehn
+das Geld
+der Laden
+billig
+teuer
+links
+rechts
+die Straße
+der Bahnhof
+der Bus
+der Zug
+die Fahrkarte
+nah
+heute
+morgen
+der Morgen
+der Abend
+die Arbeit
+das Zuhause
+schlafen
+essen
+die Mutter
+der Vater
+die Schwester
+der Bruder
+das Kind
+die Familie
+der Hund
+der Geburtstag
+glücklich
+traurig
+lieben
+mögen
+schön
+interessant
+langweilig
+weil
+---
+# Phrases
+Hallo, wie geht's?
+Mir geht's gut, danke.
+Freut mich.
+Bis morgen!
+Entschuldigung.
+Es tut mir leid.
+Schönen Tag noch!
+Und dir?
+Ich heiße Alex.
+Wie heißt du?
+Ich komme aus Kanada.
+Woher kommst du?
+Ich wohne in einer großen Stadt.
+Ich spreche ein bisschen.
+Ich lerne diese Sprache.
+Kannst du bitte langsamer sprechen?
+Einen Kaffee, bitte.
+Ich hätte gern ein Wasser.
+Was macht das?
+Die Speisekarte, bitte.
+Das ist lecker!
+Die Rechnung, bitte.
+Ich habe Hunger.
+Haben Sie Tee?
+Wie viel kostet das?
+Das ist zu teuer.
+Ich nehme zwei.
+Kann ich mit Karte zahlen?
+Ich schaue nur.
+Haben Sie das eine Nummer kleiner?
+Wo ist der Markt?
+Das ist billig!
+Wo ist der Bahnhof?
+Biegen Sie links ab.
+Es ist rechts.
+Ist es weit?
+Eine Fahrkarte ins Stadtzentrum, bitte.
+Wann fährt der Bus ab?
+Ich habe mich verlaufen.
+Gehen Sie geradeaus.
+Wie spät ist es?
+Ich wache um sieben auf.
+Ich fahre mit dem Bus zur Arbeit.
+Ich bin heute müde.
+Ich esse zu Hause zu Abend.
+Was machst du morgen?
+Ich habe morgens ein Meeting.
+Ich gehe spät ins Bett.
+Ich habe einen Bruder und eine Schwester.
+Das ist meine Mutter.
+Hast du Kinder?
+Meine Familie ist groß.
+Ich habe einen Hund.
+Alles Gute zum Geburtstag!
+Mein bester Freund wohnt in der Nähe.
+Sonntags essen wir zusammen.
+Ich bin sehr glücklich!
+Ich liebe dieses Lied.
+Ich mag keinen Regen.
+Was denkst du?
+Ich finde es interessant.
+Es ist ein schöner Tag.
+Das ist langweilig.
+Ich mag es, weil es Spaß macht.
