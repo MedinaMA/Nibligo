@@ -1,4 +1,4 @@
-# Sayso 🗨️✨
+# Nibligo 🗨️✨
 
 Learn any language by **speaking** it. Learners talk out loud with Sayso, a friendly AI tutor (Claude) that answers at their level, fixes mistakes as they go, and turns those mistakes into spoken review drills. XP, streaks, daily goals and confetti keep them coming back.
 
